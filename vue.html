@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <div id="app">
+    <input type="button" name="btn" value="Show/Hide" v-on:click="show = !show">
+    <h1 v-if="show">
+      {{ text }}
+    </h1>
+    <h2 v-else>
+      Text is invisible!
+    </h2>
+    <br>
+    <input type="input" name="btn" v-model="text">
+    <input type="button" name="btn_2" value="Push me!" v-on:click="textHelloM">
+    <hr>
+    <ul>
+      <li v-for="people in couple">{{ people.name | trToUpperCase }}</li>
+    </ul>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

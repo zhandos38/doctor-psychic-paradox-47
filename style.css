@@ -1,0 +1,85 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.sectionMain {
+	background: url('img/bg.jpg') no-repeat center top;
+	height: 100vh;
+}
+
+.sectionMain__logoTitle {
+	padding: 5px 20px;
+}
+
+.sectionMain__logo {
+	color: white;
+	display: flex;
+	padding-top: 47px;
+}
+
+.sectionMain__img {
+	width: 80px;
+	height: 80px;
+}
+.sectionMain__titleWrapper {
+	color: white;
+	margin-top: 480px;
+	margin-left: 560px;
+}
+.sectionMain__title {
+	font-size: 56px;
+}
+.sectionSecond {
+	padding-top: 117px;
+	height: 40vh;
+}
+.sectionSecond__title {
+	font-size: 32px;
+	text-align: center;
+}
+.sectionSecond__itemWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.sectionSecond__item {
+	width: 340px;
+	height: 76px;
+	margin-top: 66px;
+	padding-left: 86px;
+	background: url('img/1.png')  no-repeat  left top;
+	background-size: contain;
+}
+.sectionSecond__item:nth-child(2) {
+	margin-left: 60px;
+	background: url('img/2.png')  no-repeat  left top;
+	background-size: contain;
+	padding-left: 96px;
+}
+.sectionSecond__item:nth-child(3) {
+	margin-left: 60px;
+	background: url('img/3.png')  no-repeat  left top;
+	background-size: contain;
+	padding-left: 96px;
+}
+.footer {
+	color: white;
+	height: 6vh;
+	background-color: black;
+	padding: 55px 0;
+}
+.footer__textWrapper {
+	display: flex;
+}
+.footer__item {
+	margin-right: 73px;
+}
